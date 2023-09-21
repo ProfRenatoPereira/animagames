@@ -71,3 +71,64 @@ h2 {
 .tecla:active:focus {
   box-shadow: 3px 3px 0 var(--vermelha-escura) inset, 1px 1px 10px var(--luz);
 }
+
+
+
+
+.menu {
+  float: left;
+  width: 18%;
+  text-align: center;
+  font-size:16px;
+  color: rgb(246,248,247);
+}
+
+.menu a {
+  background: linear-gradient(to bottom, #eea3a3 0%,#490606 100%);
+  padding: 3px;
+  margin-top: 3px;
+  display: inline-block;
+  width: 100%;
+  color: white;
+  font-size:15px;
+}
+
+.centro {
+  float: left;
+  width: 55%;
+  padding: 0px 0px;
+  margin-top:0px;
+  align-items: center;
+  
+}
+
+.right {
+  background: linear-gradient(to bottom, #eea3a3 0%,#490606 100%);
+  color: white;
+  float: right;
+  width: 20%;
+  padding: 5px 5px;
+  margin-top: 0px;
+  text-align: justify;
+  font-size:14px;
+}
+
+.rodape {
+	text-align: justify;
+  font-size:14px;
+	padding: 5px 5px;
+  background: linear-gradient(to bottom, #eea3a3 0%,#490606 100%);
+  margin-top:15px;
+  color: black;
+  vertical-align: displayHeight;
+  height: height;
+  width: displayWidth;
+}
+
+
+.copyright {
+  text-align:center;
+	color: black;
+	font-size: 16px;
+	margin: 0px 0px;
+}
