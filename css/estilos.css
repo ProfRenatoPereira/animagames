@@ -6,6 +6,43 @@
   --luz: #ff5c77
 }
 
+
+
+.corpo, html {
+ 
+  color:#F7F3F3;
+  margin: 0px;
+  padding: 0px opx;
+  font-family: 'Times New Roman', Times, serif;
+  background: linear-gradient(to bottom, #eea3a3 0%, #490606 100%);
+  font-size:16px;
+  vertical-align: displayHeight;
+  height: displayHeight;
+  width: displayWidth;
+}
+
+.cabecalho {
+  font-size: 1.5rem;
+  background: linear-gradient(to bottom, #eea3a3 0%,#490606 100%);
+  padding:10px 0px;
+  margin-top:10px;
+  text-align:center;
+  color:rgb(255, 1, 1);
+  font-family: "Audiowide", sans-serif;
+  display:inline-block;
+  vertical-align: displayHeight;
+  height: displayHeight;
+  width: displayWidth;
+}
+
+
+
+
+
+
+
+
+
 body {
   align-items: center;
   background: linear-gradient(45deg, #ff5c77 0%,#00b7c1 100%);
@@ -71,6 +108,43 @@ h2 {
 .tecla:active:focus {
   box-shadow: 3px 3px 0 var(--vermelha-escura) inset, 1px 1px 10px var(--luz);
 }
+
+
+
+
+
+
+.titulo {
+  margin-top:0px;
+  text-align:center;
+  color:rgba(255,253,0,0.96);
+  font-family: "Times", sans-serif;
+  font-size:18px;
+}
+
+
+.container {
+  display:inline-block;
+  /*float: center;*/
+  padding: 0px 0px;
+  margin-top:0px;
+  align-items: center;
+}
+
+.lista{
+  color: rgb(249,249,249);
+  text-align:justify;
+  font-size:14px;
+  padding: 0px 10px;
+  margin-top:0px;
+  margin:10px;
+}
+
+
+
+
+
+
 
 
 
