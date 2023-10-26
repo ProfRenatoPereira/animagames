@@ -17,8 +17,9 @@
   background: linear-gradient(to bottom, #eea3a3 0%, #490606 100%);
   font-size:16px;
   vertical-align: displayHeight;
+  horizontal-align: displayWidth;
   height: displayHeight;
-  width: displayWidth;
+  width: 0.5*displayWidth;
 }
 
 .cabecalho {
@@ -32,7 +33,7 @@
   display:inline-block;
   vertical-align: displayHeight;
   height: displayHeight;
-  width: displayWidth;
+  width: 0.5*displayWidth;
 }
 
 
